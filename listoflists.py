@@ -13,7 +13,7 @@ def range_list(lst):
     return max(flat_list) - min(flat_list) + 2
 
 my_list = [[11, 9, 23], [16, 6, 18], [4, 19, 1]]
-print(range_list(my_list)) # returns 24
+print(range_list(my_list)) # returns 24 ((23-1)+2)
 """
 First, we flattened the list of lists into a single list through list comprehension.
 We then computed the range by subtracting the smallest value from the largest and adding
